@@ -137,8 +137,6 @@ span {
     box-shadow: none;
 }
 
-/*-----------NAVBAR - MOBILE VERSION ------------*/
-
 .navbar-collapse {
     text-align: center;
 }
@@ -402,6 +400,9 @@ i:hover {
         background-color: #f8f9fa7a;
         border: 1px solid #fafaf8;
         border-radius: 0.1rem;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
     }
 
     .header {
