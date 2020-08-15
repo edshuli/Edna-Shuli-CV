@@ -83,7 +83,7 @@ span {
 /*---------------------------------NAVBAR ------------*/
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: #3f2440;;
     overflow: hidden;
     position: fixed;
 }
@@ -130,20 +130,19 @@ span {
     color: #d1be7b;
 }
 
+/* Delete the gold shadow from the navabar-toggler */
+.navbar-toggler:focus,
+.navabar-toggler:active {
+    outline: none !important;
+    box-shadow: none;
+}
 
 /*-----------NAVBAR - MOBILE VERSION ------------*/
 
 .navbar-collapse {
-    text-align: right;
-    display: block;
+    text-align: center;
 }
 
-.navbar-toggler {
-    line-height: 1;
-    background-color: #f8f9fa7a;
-    border: 1px solid #fafaf8;
-    border-radius: .25rem;
-}
 
 /*----------------------------TITLES/HEADERS----------------------------*/
 
@@ -398,7 +397,8 @@ i:hover {
     }
 
     .navbar-toggler {
-        line-height: 1;
+        line-height: 0.5;
+        padding:0;
         background-color: #f8f9fa7a;
         border: 1px solid #fafaf8;
         border-radius: 0.1rem;
